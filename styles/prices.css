@@ -57,7 +57,7 @@
     border: white;
 
     .prices__card-name::before {
-        content: url(/img/white_Star.png);
+        content: url(./img/white_Star.png);
     }
     .prices__card-list {
         color: var(--co-white);
@@ -78,7 +78,7 @@
 
 .prices__card-name::before {
     position: absolute;
-    content: url(/img/grey_star.png);
+    content: url(./img/grey_star.png);
     top: 0;
     right: -84px;
 }
