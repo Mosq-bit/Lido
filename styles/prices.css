@@ -57,13 +57,13 @@
     border: white;
 
     .prices__card-name::before {
-        content: url(/img/white_Star.png);
+        content: url(img/white_Star.png);
     }
     .prices__card-list {
         color: var(--co-white);
     }
     .prices_card-item::after {
-        content: url(/img/V-white.png);
+        content: url(img/V-white.png);
     }
 }
 
@@ -78,7 +78,7 @@
 
 .prices__card-name::before {
     position: absolute;
-    content: url(/img/grey_star.png);
+    content: url(img/grey_star.png);
     top: 0;
     right: -84px;
 }
@@ -119,7 +119,7 @@
 
 .prices_card-item::after {
     position: absolute;
-    content: url(/img/V.png);
+    content: url(img/V.png);
     top: 0;
     left: -30px;
 
