@@ -1,0 +1,35 @@
+
+
+.nav__section {
+    padding-top: 92px;
+    background-color: var(--co-light-grey);
+}
+.nav {
+    height: 88px;
+
+   
+}
+.nav-list {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+.nav-item {
+    padding: 32px 0;
+    width: 280px;
+    height: 88px;
+    background-color: var(--co-white);
+    border-radius: 25px 25px 0 0;
+}
+.nav-link {
+    color: var(--co-nav-grey);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color:var(--co-grey);
+}

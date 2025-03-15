@@ -1,0 +1,87 @@
+.services__section {
+    margin-top: 110px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.services__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.services__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.services__card {
+    padding: 40px 0 40px 40px;
+    width: 730px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
+
+    background-color: var(--co-light-grey);
+    border-radius: 20px;
+
+}
+
+.services__card-title {
+    position: relative;
+    max-width: 556px;
+    height: 84px;
+
+    font-size: 36px;
+    font-weight: 700;
+
+    
+}
+.services__card-title::before{
+    position: absolute;
+    content: url(/img/gradient_Star.svg);
+    top: -3px;
+    right: -290px;
+}
+
+.services__card-price {
+    font-size: 24px;
+
+    span {
+        font-size: 36px;
+        font-weight: 700;
+
+
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, #8d13f9 0%, #ca46d2 28.6%, #e55d97 51.6%, #f06177 62.6%, #f26659 72.6%, #f60 100%);
+    }
+}
+
+.services__card-btn{
+    width: 650px;
+    height: 72px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: var(--co-white);
+    background-color: var(--co-orange);
+}
+
+.services__card-btn:hover {
+
+    background: rgba(0, 0, 0, 0);
+    color: var(--co-black);
+    box-shadow: inset 0 0 0 3px #eb390d;
+}

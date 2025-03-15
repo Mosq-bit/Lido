@@ -1,0 +1,66 @@
+.advantages__section {
+    padding: 120px 0;
+    margin: 0 auto;
+}
+
+.advantages {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.advantages__title {
+    width: 998px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.advantages__title span {
+    color: var(--co-orange);
+}
+
+.advantages__cards {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.advantages__card {
+    padding: 0 0 0 20px;
+    width: 880px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: var(--co-light-grey);
+    border-radius: 20px;
+
+}
+
+.advantages__card-title {
+    position: relative;
+    font-size: 32px;
+    color: var(--co-grey);
+}
+
+.advantages__card-title::before {
+    position: absolute;
+    content: url(/img/Star.svg);
+    top: 10px;
+    right: 0px;
+
+}
+
+.advantages__card-descr {
+    max-width: 466px;
+    font-size: 24px;
+}
+
+.advantages__card-img {}

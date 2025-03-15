@@ -1,0 +1,58 @@
+.why__section {
+    margin-top: 120px;
+}
+.why {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.why__title {
+    max-width: 615px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+    span{
+        color: var(--co-orange);
+    }
+}
+.why__descr {
+    max-width: 885px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+.why__cards-number {
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    gap: 20px;
+}
+.why__card-number {
+    padding: 40px 40px 70px 40px;
+    width: 580px;
+    height: 317px;
+
+    background-color: var(--co-light-grey);
+    border-radius: 20px;
+}
+.card-number--title {
+    position: relative;
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--co-grey);
+}
+.card-number--title::before{
+    position: absolute;
+    content: url(/img/grey_star.png);
+    top: 0px;
+    right: 10px;
+}
+.card-number--descr {
+    font-size: 24px;
+    color: var(--co-grey);
+}

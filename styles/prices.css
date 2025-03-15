@@ -1,0 +1,148 @@
+.prices__section {}
+
+.prices {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices__title {
+    text-align: center;
+    max-width: 784px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.prices__title span {
+    color: var(--co-orange);
+}
+
+.prices__descr {
+    text-align: center;
+    font-size: 32px;
+    color: var(--co-grey);
+}
+
+.prices__cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.prices__card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 518px;
+    height: 813px;
+
+    background-color: var(--co-light-grey);
+    border-radius: 20px;
+
+    padding: 40px 0 0 40px;
+}
+
+
+.prices__card:hover {
+    cursor: pointer;
+    background-color: var(--co-grey);
+    color: var(--co-white);
+    background-color: var(--co-grey);
+    border: white;
+
+    .prices__card-name::before {
+        content: url(/img/white_Star.png);
+    }
+    .prices__card-list {
+        color: var(--co-white);
+    }
+    .prices_card-item::after {
+        content: url(/img/V-white.png);
+    }
+}
+
+.prices__card-name {
+    position: relative;
+    text-align: center;
+    max-width: 190px;
+    font-size: 32px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.prices__card-name::before {
+    position: absolute;
+    content: url(/img/grey_star.png);
+    top: 0;
+    right: -84px;
+}
+
+
+
+.prices__card-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.prices__card-title span {
+    color: var(--co-orange);
+}
+
+.prices__card-descr {
+    height: 116px;
+    font-size: 24px;
+    color: var(--co-nav-grey);
+}
+
+.prices__card-list {
+    padding: 0 0 0 30px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-size: 24px;
+    color: var(--co-grey);
+}
+
+
+
+.prices_card-item {
+    position: relative;
+}
+
+.prices_card-item::after {
+    position: absolute;
+    content: url(/img/V.png);
+    top: 0;
+    left: -30px;
+
+}
+
+
+.prices__card-btn {
+    margin: 40px 0;
+
+    width: 445px;
+    height: 72px;
+
+    color: var(--co-white);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: var(--co-orange);
+
+}
+
+.prices__card-btn:hover {
+
+    background: rgba(0, 0, 0, 0);
+    color: var(--co-white);
+    box-shadow: inset 0 0 0 3px #eb390d;
+}

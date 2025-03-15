@@ -1,0 +1,114 @@
+.faq__section {
+    margin-top: 120px;
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.faq__title {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.faq__wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.accordion {
+
+}
+
+
+
+
+.tab input,
+.tab-content {
+    display: none;
+}
+
+.tab {
+
+    border-radius: 40px;
+    /* Скругляем уголки */
+    color: var(--co-grey);
+    /* Цвет текста */
+    margin-bottom: 10px;
+    /* Расстояние между пунктами */
+}
+
+.tab-title {
+    position: relative;
+    width: 880px;
+    height: 138px;
+
+    padding: 40px;
+
+    cursor: pointer;
+    /* Вид курсора */
+    display: block;
+    /* Блочный элемент */
+
+    background-color: var(--co-light-grey);
+    /* Цвет фона */
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    /* Жирное начертание */
+}
+
+.tab-title:hover{
+    
+	box-shadow: inset 0 0 0 3px #FF6600;
+}
+
+.tab-title::after {
+    position: absolute;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    content: '+';
+    /* Выводим плюс */
+    top: 50px;
+    right: 10px;
+}
+
+.tab-content {
+    width: 876px;
+    height: 400px;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 40px;
+    font-size: 24px;
+    color: var(--co-black);
+    background-color: var(--co-light-grey);
+    /* Цвет фона */
+
+}
+.tab-content:hover{
+    box-shadow: inset 0 0 0 3px #FF6600;
+}
+
+.tab :checked+.tab-title {
+    background-color: var(--co-light-grey);
+    /* Цвет фона */
+    border-radius: 30px;
+    /* Скругляем уголки */
+    color: var(--co-grey);
+    /* Цвет текста */
+}
+
+.tab :checked+.tab-title::after {
+    content: '−';
+    /* Выводим минус */
+}
+
+.tab :checked~.tab-content {
+    display: block;
+    /* Показываем содержимое */
+}

@@ -1,0 +1,80 @@
+.info__section {
+    margin-top: 120px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.info__title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        width: 560px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    span {
+        color: var(--co-orange);
+    }
+}
+
+.info__title-pic{
+    margin-top: 30px;
+    width: 72px;
+    height: 72px;
+}
+
+.info-btn {
+    width: 690px;
+    height: 72px;
+    margin-top: 60px;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    border-radius: 20px;
+    background-color: var(--co-orange);
+    color: var(--co-white);
+
+    :hover{
+        box-shadow: inset 0 0 0 3px #FF6600;
+    }
+}
+
+
+.info__descr {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    p{
+    color: var(--co-grey);
+    font-size: 24px;
+    }
+}
+
+.info__descr::before{
+    position: absolute;
+    content: url(/img/Star.svg);
+    top: 10px;
+    right: 10px;
+}
+
+details > summary {
+    list-style: none;
+}
+.info__text {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--co-nav-grey);
+}

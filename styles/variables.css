@@ -1,0 +1,27 @@
+:root {
+    --co-white: #ffff;
+    
+
+    --co-black: #000000;
+
+    --co-grey: #2D2D2D;
+    --co-light-grey:#f6f6f6;
+
+    --co-nav-grey:#808080;
+
+
+    --co-red: #fc0807;
+    --co-yellow: #fcbb07;
+
+    --co-orange:#FF6600;
+
+
+
+}
+
+button:hover {
+
+    background: rgba(0,0,0,0);
+    color: #FF6600;
+	box-shadow: inset 0 0 0 3px #FF6600;
+}

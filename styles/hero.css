@@ -1,0 +1,77 @@
+.hero__section {
+    background-color:var(--co-light-grey);
+
+    padding: 60px 0;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+}
+.hero__title {
+    font-size: 85px;
+    color: var(--co-grey);
+
+}
+.hero__title span{
+    color:var(--co-orange);
+}
+.hero__descr {
+    position: relative;
+    font-size: 32px;
+    color: var(--co-grey);
+}
+.hero__descr::before{
+    position: absolute;
+    content: url(/img/Face.svg);
+    top: 12px;
+    right: 235px;
+
+}
+
+.hero__content-btn {
+    width: 800px;
+    height: 72px;
+    background-color: var(--co-orange);
+    color: var(--co-white);
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+
+.hero__bg {
+    position: relative;
+}
+
+.hero__bg::before{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    content: url(/img/Star.svg);
+    top: 80px;
+    right: -25px;
+
+}
+
+.hero__bg::after{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    content: url(/img/Star.svg);
+    bottom: 50px;
+    left: -20px;
+
+}
+
+.hero__pic{
+border-top-right-radius: -50px;
+}
