@@ -31,7 +31,7 @@
 }
 .hero__descr::before{
     position: absolute;
-    content: url(/img/Face.svg);
+    content: url(img/Face.svg);
     top: 12px;
     right: 235px;
 
@@ -56,7 +56,7 @@
     position: absolute;
     width: 62px;
     height: 62px;
-    content: url(/img/Star.svg);
+    content: url(img/Star.svg);
     top: 80px;
     right: -25px;
 
@@ -66,7 +66,7 @@
     position: absolute;
     width: 62px;
     height: 62px;
-    content: url(/img/Star.svg);
+    content: url(img/Star.svg);
     bottom: 50px;
     left: -20px;
 
