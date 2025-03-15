@@ -33,7 +33,7 @@
 
 .video__section-link::before{
     position: absolute;
-    content: url(img/Polygon__gradient.svg);
+    content: url(/img/Polygon__gradient.svg);
     top: 40%;
     left: 50%;
     transform: translateX(-50%);
