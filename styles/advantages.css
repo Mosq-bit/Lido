@@ -52,7 +52,7 @@
 
 .advantages__card-title::before {
     position: absolute;
-    content: url(img/Star.svg);
+    content: url(/img/Star.svg);
     top: 10px;
     right: 0px;
 
