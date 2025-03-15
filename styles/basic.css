@@ -19,20 +19,9 @@ body {
     flex-shrink: 0;
 }
 
-.btn {
-    border-radius: 3px;
-    font-weight: 400px;
-    width: 185px;
-    height: 50px;
-    background-color: var(--co-green);
-    color: var(--co-white);
-}
-.btn:hover,
-.btn:focus-visible{
-    /* outline нужно указывать как у border */
-outline: 2px solid var(--co-dark-green);
-}
-.btn__singin{
-    background-color: transparent;
-    color: #000;
+button:hover {
+
+    background: rgba(0,0,0,0);
+    color: #FF6600;
+	box-shadow: inset 0 0 0 3px #FF6600;
 }
