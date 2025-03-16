@@ -20,6 +20,8 @@
 }
 
 .steps__card-info {
+     margin-top: 60px;
+    padding-bottom: 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
