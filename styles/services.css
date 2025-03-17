@@ -50,7 +50,7 @@
 }
 .services__card-title::before{
     position: absolute;
-    content: url(./img/gradient_Star.svg);
+    content: url(/Lido/img/gradient_Star.svg);
     top: -3px;
     right: -290px;
 }
