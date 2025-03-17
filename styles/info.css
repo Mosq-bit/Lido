@@ -63,7 +63,7 @@
 
 .info__descr::before{
     position: absolute;
-    content: url(img/Star.svg);
+    content: url(/Lido/img/Star.svg);
     top: 10px;
     right: 10px;
 }
