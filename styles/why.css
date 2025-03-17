@@ -48,7 +48,7 @@
 }
 .card-number--title::before{
     position: absolute;
-    content: url(./img/grey_star.png);
+    content: url(/Lido/img/grey_star.png);
     top: 0px;
     right: 10px;
 }
